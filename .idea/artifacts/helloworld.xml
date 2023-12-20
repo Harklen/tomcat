@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="helloworld">
+    <output-path>$PROJECT_DIR$/out/artifacts/helloworld</output-path>
+    <root id="archive" name="helloworld.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="helloworld" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+    </root>
+  </artifact>
+</component>
